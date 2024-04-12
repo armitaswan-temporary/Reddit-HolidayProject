@@ -24,8 +24,10 @@ public class Post {
         karma = 0;
     }
 
-    public void setTags(ArrayList<String> tags) {
-        this.tags = tags;
+    public void addTags(String tag) {
+        if (!tags.contains(tag)) {
+            tags.add(tag);
+        }
     }
     public String getTitle() {
         return title;
