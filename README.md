@@ -27,10 +27,13 @@ Get'em stuff on your device before starting:
  - 👾you can also have your own community
  - 🤓you can search among all available users and subreddits and posts
  - 🥶you can dive in your timeline and view latest posts of you joined subreddits, followings and recommended posts for you based of your favs and even all trending and top posts
- - 👻and many other features inside each of these
+ - 👻and many other features inside each of these like sorting the comments based on karmas, tracking your fav posts by their tags, hashing passwords and top level lit security and etc
 
  ### Usage 🎮🔭
- 
+ - 🍜first sign in and make your account 
+ - 🍤then view the menu and type in the number of the item you want to choose
+ - 🍥when you're asked to type in one line don't press enter
+ - 🍡easy! enjoy the program!
 
 ### Pics of the app 🖼🎴
 ![image](https://github.com/armitaswan-temporary/Reddit-HolidayProject/assets/162080804/1652a9a2-a1ad-4aea-8546-75d93b62f5dc)
@@ -38,10 +41,24 @@ Get'em stuff on your device before starting:
 
 ###  Credits 🥂🦾
 Sources: https://stackoverflow.com - https://www.geeksforgeeks.org 💯
-libraries: JUnit - java.util.regex - java.util.UUID 
-thanks to my dear chatGPT for answering my questions at any time + my mentor 🫡
+libraries: java.util.UUID - java.util.ArrayList - java.util.Collections - java.util.Comparator 🐱‍🚀
+thanks to my dear chatGPT for answering my questions at any time + my mentor 🐱‍🏍
 
 ### Changelog 🥼🔧
+- ⭐ver.0 I made the basis. classes and their basic methods
+- ⭐ver.1 added more methods to the classes and adding the connection between them
+- ⭐ver.2 fixing the bugs of connection of classes
+- ⭐ver.3 got trouble with finding the unique object I was looking for, so I added a metjod for it where ever necessary
+- ⭐ver.4 added pairing method for saving the karma, boolean of status and other stuff
+- ⭐ver.5 added comparing methods based on karma
+- ⭐ver.6 fixed the static problems of data saving
+- ⭐ver.6 added methods so the user can change their password, username and other things
+- ⭐ver.7 fixed reply for posts
+
+### Still Some Issues ⚓🪑
+- 🌡Data saving is not permanent
+- 🌡Can't handle it when an array or something is empty
+- 🌡no graphics
 
 
 ## Contact Me 📱💻
