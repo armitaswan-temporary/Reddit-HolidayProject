@@ -23,4 +23,12 @@ public class Chat {
     public Account getThem() {
         return them;
     }
+    public void newMessage(Account account, String message) {
+        boolean byThem = false;
+        if (account.getUsername().equals(getThem().getUsername())) {
+            byThem = true;
+        }
+        Pair<Boolean, String> newPair = new Pair<>(byThem, message);
+        messages.add(newPair);
+    }
 }
