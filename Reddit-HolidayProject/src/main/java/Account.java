@@ -11,7 +11,7 @@ public class Account {
     private int password;
     private String name;
     private String gender;
-    private final UUID username;
+    private UUID username;
     private int totalKarma;
     private int postkarma;
     private int commentKarma;
@@ -21,6 +21,7 @@ public class Account {
     private ArrayList<Post> saves;
     private ArrayList<Subreddit> joinedSubreddits;
     private ArrayList<Post> usersPosts;
+    private ArrayList<Comment> usersComments;
     private ArrayList<Post> upvotedPosts;
     private ArrayList<Comment> upvotedComments;
     private ArrayList<Pair<String, Integer>> usersTags;
@@ -29,6 +30,7 @@ public class Account {
         this.email = email;
         this.password = password.hashCode();
         username = UUID.randomUUID();
+        name = "-";
         totalKarma = 0;
         postkarma = 0;
         commentKarma = 0;
@@ -38,6 +40,7 @@ public class Account {
         saves = new ArrayList<>();
         joinedSubreddits = new ArrayList<>();
         usersPosts = new ArrayList<>();
+        usersComments = new ArrayList<>();
         upvotedPosts = new ArrayList<>();
         upvotedComments = new ArrayList<>();
         usersTags = new ArrayList<>();
@@ -60,6 +63,9 @@ public class Account {
     }
     public UUID getUsername() {
         return username;
+    }
+    public void setUsername(String newUsername) {
+        username = UUID.fromString(newUsername);
     }
     public String getEmail() {
         return email;
@@ -128,6 +134,15 @@ public class Account {
     }
     public ArrayList<Post> getUsersPosts() {
         return usersPosts;
+    }
+    public void addUsersComment(Comment comment) {
+        usersComments.add(comment);
+    }
+    public void deleteUsersComment(Comment comment) {
+        usersComments.remove(comment);
+    }
+    public ArrayList<Comment> getUsersComment() {
+        return usersComments;
     }
     public void setUpvotedPosts(boolean added, Post post) {
         if (added) {
