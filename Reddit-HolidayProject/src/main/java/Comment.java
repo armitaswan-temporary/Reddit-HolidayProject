@@ -5,14 +5,16 @@ public class Comment {
     private UUID uniqueName;
     private Account creator;
     private Post post;
+    private String bodyText;
     private int karma;
     private ArrayList<Pair<Comment, Integer>> replies;
     private ArrayList<Pair<Account, Integer>> votedAccounts;
 
-    public Comment(Account creator, Post post) {
+    public Comment(Account creator, Post post, String bodyText) {
         uniqueName = UUID.randomUUID();
         this.creator = creator;
         this.post = post;
+        this.bodyText = bodyText;
         karma = 0;
         replies = new ArrayList<>();
         votedAccounts = new ArrayList<>();
@@ -26,6 +28,9 @@ public class Comment {
     }
     public Post getPost() {
         return post;
+    }
+    public String getBodyText() {
+        return bodyText;
     }
     public int getKarma() {
         return karma;
