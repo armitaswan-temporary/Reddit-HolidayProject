@@ -29,13 +29,16 @@ Get'em stuff on your device before starting:
  - 🥶you can dive in your timeline and view latest posts of you joined subreddits, followings and recommended posts for you based of your favs and even all trending and top posts
  - 👻and many other features inside each of these
 
+ ### Usage 🎮🔭
+
 ### Pics of the app 🖼🎴
 ![image](https://github.com/armitaswan-temporary/Reddit-HolidayProject/assets/162080804/1652a9a2-a1ad-4aea-8546-75d93b62f5dc)
 ![image](https://github.com/armitaswan-temporary/Reddit-HolidayProject/assets/162080804/945db806-ac49-4683-ad26-6fd42a8709c2)
 
+###  Credits 🥂🦾
 
-###Changelog 🥼🔧
+### Changelog 🥼🔧
 
 
-##Contact Me 📱💻
+## Contact Me 📱💻
 If you found any bugs in this (except the ones I mentioned) or wanted to contact me you can message me on telegram my username is @armita_swan.
