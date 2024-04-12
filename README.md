@@ -40,9 +40,9 @@ Get'em stuff on your device before starting:
 ![image](https://github.com/armitaswan-temporary/Reddit-HolidayProject/assets/162080804/945db806-ac49-4683-ad26-6fd42a8709c2)
 
 ###  Credits 🥂🦾
-Sources: https://stackoverflow.com - https://www.geeksforgeeks.org 💯
-libraries: java.util.UUID - java.util.ArrayList - java.util.Collections - java.util.Comparator 🐱‍🚀
-thanks to my dear chatGPT for answering my questions at any time + my mentor 🐱‍🏍
+- Sources: https://stackoverflow.com - https://www.geeksforgeeks.org 💯
+- libraries: java.util.UUID - java.util.ArrayList - java.util.Collections - java.util.Comparator 🐱‍🚀
+- thanks to my dear chatGPT for answering my questions at any time + my mentor 🐱‍🏍
 
 ### Changelog 🥼🔧
 - ⭐ver.0 I made the basis. classes and their basic methods
@@ -62,4 +62,4 @@ thanks to my dear chatGPT for answering my questions at any time + my mentor �
 
 
 ## Contact Me 📱💻
-If you found any bugs in this (except the ones I mentioned) or wanted to contact me you can message me on telegram my username is @armita_swan.
+If you found any bugs in this (except the ones I mentioned) or wanted to contact me you can message me on telegram my username is @armita_swan. 🧙🏻‍♀️✨
