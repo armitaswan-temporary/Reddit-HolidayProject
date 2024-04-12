@@ -30,12 +30,16 @@ Get'em stuff on your device before starting:
  - 👻and many other features inside each of these
 
  ### Usage 🎮🔭
+ 
 
 ### Pics of the app 🖼🎴
 ![image](https://github.com/armitaswan-temporary/Reddit-HolidayProject/assets/162080804/1652a9a2-a1ad-4aea-8546-75d93b62f5dc)
 ![image](https://github.com/armitaswan-temporary/Reddit-HolidayProject/assets/162080804/945db806-ac49-4683-ad26-6fd42a8709c2)
 
 ###  Credits 🥂🦾
+Sources: https://stackoverflow.com - https://www.geeksforgeeks.org 💯
+libraries: JUnit - java.util.regex - java.util.UUID 
+thanks to my dear chatGPT for answering my questions at any time + my mentor 🫡
 
 ### Changelog 🥼🔧
 
